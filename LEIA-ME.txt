@@ -1,0 +1,27 @@
+SITE KEVEN & ANA — BUQUÊ MAIS PARECIDO COM O REAL
+
+ARQUIVOS:
+- index.html
+- historia.html
+- presente.html
+- style.css
+- script.js
+
+FOTOS:
+Coloque foto1.jpg, foto2.jpg e foto3.jpg na mesma pasta.
+
+ALTERAR MENSAGENS:
+Abra script.js e procure:
+const motivosBuque = [
+
+O NOVO BUQUÊ POSSUI:
+- 12 rosas vermelhas interativas
+- flores brancas parecidas com astromélias
+- mosquitinhos brancos
+- folhas verdes
+- embalagem vermelha/vinho
+- laço dourado
+- chuva de rosas ao abrir a caixa
+
+ABRA PRIMEIRO:
+index.html
