@@ -4156,3 +4156,44 @@ footer {
     border-radius: 13px;
   }
 }
+
+/* =========================================================
+   AFASTA O STITCH DA CAIXA DE MENSAGEM
+   FUNCIONA NO COMPUTADOR E NO CELULAR
+   ========================================================= */
+
+.stitch-stage {
+  min-height: 690px !important;
+}
+
+.stitch-svg-wrap {
+  bottom: 205px !important;
+  width: min(360px, calc(100% - 20px)) !important;
+}
+
+.texto-stitch {
+  bottom: 20px !important;
+  z-index: 20 !important;
+  width: min(620px, calc(100% - 28px)) !important;
+}
+
+/* Ajuste específico para celular */
+@media (max-width: 520px) {
+  .stitch-stage {
+    min-height: 640px !important;
+  }
+
+  .stitch-svg-wrap {
+    bottom: 205px !important;
+    width: min(285px, calc(100% - 18px)) !important;
+  }
+
+  .texto-stitch {
+    bottom: 16px !important;
+    width: calc(100% - 20px) !important;
+    padding: 16px !important;
+  }
+}
+.contador-rosas span {
+  margin-right: 5px;
+}
